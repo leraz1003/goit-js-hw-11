@@ -1,6 +1,3 @@
-
-
-
 export function createImageGallery(images) {
   return images.map(({ webformatURL, largeImageURL, tags,likes,views,comments,downloads }) =>
         `<li class="gallery-item">
